@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}  
+/********** Base styles *********/  
+h1 {
+    margin-bottom: 15px;
+}
+
+p {
+    border: 1px solid black;  
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-right: 10px;
+
+
+}
+#flowrer {
+    float: left;
+    margin-right: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+}
+/********* Large Devices Only **********/
+@media (min-width: 992px) {
+    #container {
+        background-color: darkgray;
+        width: 28%;
+        height: 155px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 90px;
+        border: 2px solid black;
+        padding: 10px;
+    }
+    #holder {
+             background-color: darkgray;
+            width: 28%;
+            height: 155px; 
+            float: left;
+            margin-right: 20px;
+            border: 2px solid black;
+            padding: 10px;
+        }
+    }
+    #taker{
+        background-color: darkgray;
+        width: 28%;
+        height: 155px;
+        float: left;
+        margin-right: 20px;
+        border: 2px solid black;
+        padding: 10px;
+    }
+    
+    #p1 {
+        width: 38%;
+        height: 22%;
+        background-color: rgb(206, 137, 148);
+        margin-right: -12px;
+        margin-left: 223px;
+        margin-top: -12px;
+        text-align: center;
+        border: 2px solid black;
+        float: right;
+      
+    }
+    #p2 {
+        width: 38%;
+        height: 22%;
+        background-color: brown;
+        margin-right: -12px;
+        margin-left: 261px;
+        margin-top: -12px;
+        text-align: center;
+        border: 2px solid black;
+        float: right;
+       
+    }
+    #p3 {
+        width: 38%;
+        height: 22%;
+        background-color:khaki;
+        margin-right: -3.5%;
+        margin-left: 226px;
+        margin-top: -12px;
+        text-align: center;
+        border: 2px solid black;
+        float: right;
+        
+    }
+
+/********* Medium devices only ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #container {
+        background-color: darkgray;
+        width: 37.5%;
+        height: 145px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 90px;
+        border: 2px solid black;
+        padding: 10px;
+    }
+    #holder {
+        background-color: darkgray;
+       width: 37.5%;
+       height: 145px; 
+       float: left;
+       margin-right: 20px;
+       border: 2px solid black;
+       padding: 10px;
+   }
+   #taker{
+    background-color: darkgray;
+    width: 77%;
+    height: 145px;
+    float: left;
+    border: 2px solid black;
+    margin: 10px;
+    margin-left: 90px;
+
+}
+    #p1 {
+        width: 130px;
+        height: 25px;
+        background-color: rgb(206, 137, 148);
+        margin-left: 208px;
+        text-align: center;
+        border: 2px solid black;
+        margin-top: -12px;
+
+        
+    }
+    #p2 {
+        width: 130px;
+        height: 25px;
+        background-color: brown;
+        margin-left: 208px;
+        text-align: center;
+        margin-top: -12px;
+        border: 2px solid black;
+        
+    }
+    
+    #p3 {
+        width: 130px;
+        height: 25px;
+        margin-left: 570px;
+        margin-right: -12px;
+        background-color: khaki;
+        text-align: center;
+        border: 2px solid black;
+        margin-top: -12px;
+        clear: left;
+    }
+
+}
+
+
+/********* small devices only ***********/
+@media (max-width: 767px) {
+    #container {
+        background-color: darkgray;
+        width: 54%;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 90px;
+        border: 2px solid black;
+        padding: 10px;
+    }
+    #holder {
+        background-color: darkgray;
+       width: 54%;
+       height: 150px; 
+       float: left;
+       margin-right: 20px;
+       border: 2px solid black;
+       padding: 10px;
+       margin: 10px;
+       margin-left: 90px;
+    }
+   
+   #taker{
+    background-color: darkgray;
+    width: 54%;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 90px;
+    } 
+
+
+#p1 {
+        width: 38%;
+        height: 20%;
+        background-color: rgb(206, 137, 148);
+        margin-right: -12px;
+        margin-left: 223px;
+        margin-top: -12px;
+        text-align: center;
+        border: 2px solid black;
+        float: right;
+    }
+#p2 {
+        width: 38%;
+        height: 20%;
+        background-color: brown;
+        margin-right: -12px;
+        margin-left: 261px;
+        margin-top: -12px;
+        text-align: center;
+        border: 2px solid black;
+        float: right;
+       
+    }
+#p3 {
+        width: 38%;
+        height: 20%;
+        background-color:khaki;
+        margin-right: -3.4%;
+        margin-left: 226px;
+        margin-top: -12px;
+        text-align: center;
+        border: 2px solid black;
+        float: right;
+        
+    }
+}
+    .title {
+    text-align: center;
+}
+
+.padding {
+    padding-top: 100px;
+}
